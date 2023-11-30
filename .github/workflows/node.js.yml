@@ -1,4 +1,4 @@
-name: build
+name: buildd
 on:
   push:
     paths:
