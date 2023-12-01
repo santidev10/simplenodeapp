@@ -1,5 +1,7 @@
 name: steps
-on: pull_request
+on:
+  pull_request:
+    branches: [ master ]
 jobs:
   run:
     runs-on: ubuntu-latest
